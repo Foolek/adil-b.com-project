@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Determination Mono";
+    src: url("../font/undertale-fonts-master/ttf/DeterminationMonoWeb.ttf");
+}
+
+.textDeterminationMono{
+    font-family: "Determination Mono";
+    font-size: 1.3rem;
+}
+
+@font-face {
+    font-family: "Determination Sans Web";
+    src: url("../font/undertale-fonts-master/ttf/DeterminationSansWeb.ttf");
+}
+
+.textDeterminationSansWeb{
+    font-family: "Determination Sans Web";
+    font-size: 1.3rem;
+}
+
+@font-face {
+    font-family: "Papyrus";
+    src: url("../font/undertale-fonts-master/ttf/UndertalePapyrus.ttf");
+}
+
+.textPapyrus{
+    font-family: Papyrus;
+    font-size: 40px;
+    font-weight: 1;
+}
+
+@font-face .textSans {
+    font-family: "Sans";
+    src: url("../font/undertale-fonts-master/ttf/UndertaleSans.ttf");
+}
+
+
+
+/* Alignement de texte */
+.text-align-center{
+    text-align: center;
+}
+.text-align-left{
+    text-align: left;
+}
+.text-align-right{
+    text-align: right;
+}
+.text-align-end{
+    text-align: end;
+}
+.text-align-start{
+    text-align: start;
+}
+.text-align-justify{
+    text-align: justify;
+}
+.text-align-justifyAll{
+    text-align: justify-all;
+}
+.text-align-matchparent{
+    text-align: match-parent;
+}
+
+
+
+/* Couleurs */
+.WhiteColor{
+    color: white;
+}
+.BlackColor{
+    color: black;
+}
+.GreyColor{
+    color: grey;
+}
+.RedColor{
+    color: rgb(170, 23, 23);
+}
+.Color{
+    color: white;
+}
+
+
+
+/* Taille texte */
+.smallText{
+    font-size: 1.5rem;
+}
+
+.mediumText{
+    font-size: 2rem;
+}
+
+.largeText{
+    font-size: 2rem;
+}
+
+@media (max-width: 800px) {
+    .smallText{
+        font-size: 1rem;
+    }
+}
+
+
+
+

@@ -1,0 +1,103 @@
+/* Paramètres de la BARRE DE MENU */
+nav{
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.78);
+    width: 100%;
+    top: 0;
+
+}
+nav ul{
+    margin: 0;
+
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: center;
+    align-items: center;
+}
+.navListItem{
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.navlink{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Determination Mono";
+}
+#githubicon{
+    width: 7rem;
+    margin-top: 0.3rem;
+}
+#discordicon{
+    width: 7.7rem;
+    margin-top: 0.3rem;
+
+}
+@media (max-width: 800px) {
+    nav ul{
+        margin: 0;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navListItem{
+        text-decoration: none;
+        list-style-type: none;
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+        margin-bottom: 0.71rem;
+        margin-top: 0.71rem;
+
+    }
+
+    .smallText{
+        font-size: 1rem;
+    }
+
+    .naviconimg{
+        width: 50rem;
+    }
+
+    #githubicon{
+        margin-top: 5px;
+        width: 4rem;
+    }
+    #discordicon{
+        margin-top: 5px;
+        width: 4.6rem;
+    }
+
+}
+@media (max-width: 600px) {
+    .navListItem{
+        text-decoration: none;
+        list-style-type: none;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 0.71rem;
+        margin-top: 0.71rem;
+
+    }
+    .navlink{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 450px) {
+
+    .navListItem{
+        text-decoration: none;
+        list-style-type: none;
+        margin-right: 0.6rem;
+        margin-left: 0.6rem;
+        margin-bottom: 0.71rem;
+        margin-top: 0.71rem;
+
+    }
+}

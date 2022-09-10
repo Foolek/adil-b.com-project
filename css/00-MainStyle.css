@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* Règles générales */
+html, body{
+    margin: 0; /* marges */
+    padding: 0; /* marges intérieurs */
+    border: 0; /* bordures */
+    outline: 0; /* bordures d'éléments */
+    font-size: 100%; /* taille de texte */
+    height: 100%; /* html -> 100% du navigateur, body -> 100% du html */
+    width: 100%;
+}
+body{
+    /*background-color: rgb(4,2,4);*/
+    background-image: url("../img/noirvert.png");
+    /*background-image: url("../img/doggo.png");*/
+    background-size: auto  ; /* Couvre toute la page */
+    background-repeat: repeat; /* Répétition d'affichage du background */
+}
+main{
+    display: flex;
+    flex-flow: column nowrap;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 10rem ;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
